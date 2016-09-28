@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp"
+  },
+  "name": "clasiq",
+  "description": "Clasiq Official Site",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MK-YOK/Clasiq.git"
+  },
+  "keywords": [
+    "clasiq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MK-YOK/Clasiq/issues"
+  },
+  "homepage": "https://github.com/MK-YOK/Clasiq#readme"
+}

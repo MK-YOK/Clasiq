@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {
+    font-family: Helvetica, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0 20px;
+}
+
+#navbar-collapse-1 {
+    border-style: none;
+}
+
+.container-fluid {
+    border-style: none;
+}
+
+.main {
+    padding: 0 17px;
+}
+
+.mainImage,
+.mainMovie {
+    width: 100%;
+    background-size: cover;
+}
+
+.videoArea {
+    position: relative;
+    width: 100%;
+}
+
+.videoArea {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoArea .mainMovie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mainImage::before,
+.mainMovie::before {
+    clear: both;
+}
+
+.subImage {
+    width: 50%;
+    //height: 400px;
+    //background-size: 50% auto;
+    background-size: contain;
+    //display: inline-block;
+}
+
+// Specifications to center the nav
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    /* 980px以上用（PC用）の記述 */
+    main::before {
+        //        content: "over 980px";
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    /* 768px - 979px用（タブレット用）の記述 */
+    main::before {
+        //      content: "768px - 979px";
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* 480px - 767px用（タブレット／スマートフォン用）の記述 */
+    main::before {
+        //    content: "480px - 767px";
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* 479px以下用（スマートフォン用）の記述 */
+    main::before {
+        //  content: "under 479px";
+    }
+}
+
+.subArea .subImage:nth-of-type(odd) {
+    float: left;
+}
+
+.subArea .subImage:nth-of-type(even) {
+    float: right;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+}
