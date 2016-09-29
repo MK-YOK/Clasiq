@@ -12,7 +12,14 @@ gulp.task('copy', function() {
     return gulp.src([
             'assets/index.html',
             'assets/css/**/*',
-            'assets/images/**/*'
+            'assets/images/**/*',
+            'assets/aboutus/**/*',
+            'assets/access/**/*',
+            'assets/contact/**/*',
+            'assets/links/**/*',
+            'assets/members/**/*',
+            'assets/music/**/*',
+            'assets/news/**/*'
         ],
         { base: 'assets' })
         .pipe(gulp.dest('html/'));
