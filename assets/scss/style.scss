@@ -107,6 +107,9 @@ body {
     }
 }
 
+#navbar-collapse-1>.nav>.selected>a{
+    color: #333;
+}
 .subArea .subImage:nth-of-type(odd) {
     float: left;
 }
