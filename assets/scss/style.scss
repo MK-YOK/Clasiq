@@ -194,13 +194,26 @@ h3 {
     font-style: normal;
 }
 
+#aboutus figure {
+    width: 90%;
+    margin: 0 0 0 5px;
+}
 
+figcaption {
+    font-size: 18px;
+    color: #444;
+    font-family: "proxima-nova";
+    //margin: 0.3em 0;
+    font-weight: normal;
+    font-style: normal;
+}
 
 #news p time {
     color: #aaa;
 }
+
 p {
-    font-family: "Helvetica Neue","Arial","sans-serif";
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
     font-size: 14px;
     line-height: 1.6em;
     letter-spacing: .5px;
@@ -209,9 +222,18 @@ p {
     //margin: 0 0 1em;
     color: #666;
 }
-#news p{
+
+#news p {}
+
+//main#aboutus {
+//    width: 80%;
+//}
+aside>p>a {
+    margin: 15px 0 0 15px;
+    font-size: 90%;
+    background-color: #eee;
 }
 
-main#aboutus {
-    width: 80%;
+.sub_link {
+    font-size: 10px;
 }
